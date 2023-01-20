@@ -88,17 +88,20 @@ body::-webkit-scrollbar {
 
 .location-icon {
   color: #F55A5A;
+  font-size: 1.3rem;
 }
 
 .location-country {
   font-weight: 400;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 .google-maps {
   padding-left: 1rem;
   color: #918E9B;
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
 .google-maps:visited {
@@ -125,4 +128,45 @@ body::-webkit-scrollbar {
 /* Locations end here */
 
 
+/* Media Queries (Phone) */
+
+@media screen and (max-width: 550px) {
+  .all-content {
+    width: 90%;
+  }
+  
+  .location-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 3rem 0 3rem;
+    background-color: white;
+    width: 100%;
+  }
+
+  .location-img {
+    width: 15rem;
+  }
+
+  .location-icon {
+    font-size: 1.2rem;
+  }
+  
+  .location-country {
+    font-size: 1rem;
+  }
+  
+  .google-maps {
+    font-size: 0.8rem;
+  }
+
+  .location-title {
+    font-size: 1.5rem;
+  }
+
+  .location-dates {
+    font-size: 0.85rem;;
+  }
+}
 
