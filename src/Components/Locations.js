@@ -8,7 +8,7 @@ export default function Locations(props) {
                 <div className="location-top-section">
                     <IoLocationSharp className="location-icon"/>
                     <h3 className="location-country">{props.location}</h3>
-                    <a href={props.googleMapsUrl} className="google-maps">View on Google Maps</a>
+                    <a href={props.googleMapsUrl} className="google-maps" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
                 </div>
                 <h1 className="location-title">{props.title}</h1>
                 <h4 className="location-dates">{props.startDate} - {props.endDate}</h4>
