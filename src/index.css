@@ -17,6 +17,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: 'Inter', sans-serif;
+  background-color: #e6e6e6;
 }
 
 body::-webkit-scrollbar {
@@ -27,8 +28,10 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8rem auto;
-  width: 70vw;
+  flex-direction: column;
+  margin: 4rem auto;
+  width: 70%;
+  max-width: 1000px;
 }
 
 /* Navbar Starts Here */
@@ -55,7 +58,69 @@ body::-webkit-scrollbar {
 
 /* Navbar ends here, Locations start here */
 
+.location-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 4rem 3rem 0 3rem;
+  gap: 2rem;
+  background-color: white;
+  width: 100%;
+}
 
+.location-section:nth-child(4) {
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 4rem;
+}
+
+.location-img {
+  width: 13rem;
+  aspect-ratio: 6/8;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.location-top-section {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1.5rem 0 0.4rem 0;
+}
+
+.location-icon {
+  color: #F55A5A;
+}
+
+.location-country {
+  font-weight: 400;
+  margin: 0;
+}
+
+.google-maps {
+  padding-left: 1rem;
+  color: #918E9B;
+  text-decoration: none;
+}
+
+.google-maps:visited {
+  color: #918E9B;
+}
+
+.google-maps:hover {
+  color: #F55A5A;
+}
+
+.location-title {
+  margin: 0;
+}
+
+.location-dates {
+  margin: 2rem 0 0 0;
+  font-size: 0.95rem;;
+}
+
+.location-description {
+  color: #2B283A;
+}
 
 /* Locations end here */
 
