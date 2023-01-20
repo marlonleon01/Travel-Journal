@@ -16,9 +16,48 @@ body {
   padding: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  font-family: 'Inter', sans-serif;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
+
+.all-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto;
+  width: 70vw;
+}
+
+/* Navbar Starts Here */
+
+.navbar {
+  background-color: #F55A5A;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  gap: 0.5rem;
+}
+
+.navbar-icon {
+  font-size: 2.5rem;
+}
+
+.navbar-title {
+  font-weight: 400;
+}
+
+/* Navbar ends here, Locations start here */
+
+
+
+/* Locations end here */
+
+
 
