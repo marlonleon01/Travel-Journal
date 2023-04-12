@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+## Description
+-I created this while following the react basics course it was the second solo project of the course   
+-It's main purpose was to practice using seperate components, props, and JavaScript methods to render certain data   
+
+## Required Files
+-Git  
+-Node.js  
+-Npm (which should be included with your node installation)  
+-Code editor (Visual Studio Code recommended)  
+
+## Installation
+-Open terminal  
+-Clone the repo with: $ git clone {url}  
+-cd into the folder  
+-type: $ npm install 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
